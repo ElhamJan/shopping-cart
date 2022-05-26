@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Shopping cart</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+        <p class="nav-title">Elham Shopping</p>
+        <span class="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-counter">0</span>
+        </span>
+      </div>
+    </nav>
+    <section>
+      <div class="products">
+        <h2 class="products-title">Our products</h2>
+        <div class="products-center"></div>
+      </div>
+    </section>
+    <section class="cart-center">
+      <div class="backdrop"></div>
+      <div class="cart">
+        <h3 class="cart-title">Your cart</h3>
+        <div class="cart-content"></div>
+        <div class="cart-footer">
+          <span class="cart-total-price"></span>
+          <button class="cart-clear-btn">Clear cart</button>
+          <button class="cart-confirm-btn">Confirm</button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="./shopping_cart.js" type="module"></script>
+</html>
